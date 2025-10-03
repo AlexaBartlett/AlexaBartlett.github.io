@@ -22,7 +22,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: DarkMagenta;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,8 +31,8 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(240, 228, 240);
+  color: mediumvioletred;
 }
 
 /* Add a color to the active/current link */
