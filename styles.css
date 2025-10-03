@@ -1,5 +1,5 @@
 a:link{text-decoration: none;}
-  h2.a{color:darkslateblue;}
+  h2.a{color:DarkMagenta;}
 
 p {
   font-family: Trebuchet MS, sans-serif;
@@ -14,7 +14,7 @@ body {
 }
 
 .topnav {
-  background-color: #ccb4d9;
+  background-color: thistle;
   overflow: hidden;
   /* position: fixed; */
 }
@@ -22,7 +22,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: indigo;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -32,12 +32,12 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: #a854a8;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #6b246b;
+  background-color: #04AA6D;
   color: white;
 }
 
@@ -47,4 +47,20 @@ body {
   text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
 
