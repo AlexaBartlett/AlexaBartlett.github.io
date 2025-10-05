@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color:black
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="art/pink_portrait.jpg" style="width:100%">
+  <img src="art/bw_portrait.jpg" style="width:100%">
+  <img src="art/calf.jpg" style="width:100%">
+  <img src="art/flower_embroidery.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="art/flowers_acrylic.jpg" style="width:100%">
+  <img src="art/mccabe_oil.jpg" style="width:100%">
+  <img src="art/happy_portrait.jpg" style="width:100%">
+  <img src="art/leaf.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+  <img src="art/teapot.jpg" style="width:100%">
+  <img src="art/vases_charcoal.jpg" style="width:100%">
+  <img src="art/vases_oil.jpg" style="width:100%">
+  <img src="art/windows_oil.jpg" style="width:100%">
+  <img src="art/blue_portrait.jpg" style="width:100%">
+  </div>  
+</div>
+
+</body>
+</html>
